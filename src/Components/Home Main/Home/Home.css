@@ -1,0 +1,154 @@
+
+
+.homeMain{
+    /* background-color: #008080; */
+    /* background-color: #090909; */
+    background-image: url(../../../Assests/blue.jpg);
+    background-size:cover;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 5rem  2fr 1fr 5rem;
+    height: 38rem;
+    align-items: center;
+    justify-content: left;
+}
+
+.introContent{
+    display: grid;
+    width: 100%;
+    grid-column: 2/3;
+
+}
+
+.imgCont{
+    display: grid;
+    grid-column: 3/4;
+    justify-content: right;
+    align-content: center;
+}
+
+.imgCont img{
+    display: grid;
+    width: 35rem;
+
+
+
+}
+
+
+
+.style{
+    
+    /* background: radial-gradient(circle at 5.6% 54.5%, rgb(47, 71, 79) 0%, rgb(159, 188, 198) 83.6%); */
+    background-image: url(../../../Assests/giphy.gif);
+    background-size:contain;
+    background-color:#090909;
+    /* transform: scale3d(1.5, 1.5, 1.5); */
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    align-items: center;
+    border-radius: 5px;
+    height:fit-content;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.style h3{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight:900;
+    /* color: #fefefe; */
+    /* font-size: clamp(12px, 4vw, 32px); */
+}
+
+.style h3 span{
+    font-size: 4rem;
+    font-weight: 900;
+    /* font-size: clamp(12px, 4vw, 32px); */
+}
+.intro{
+    display:flex;
+    background-color: #008080;
+    height: 4rem;
+    width: 7rem;
+    border-radius: 3rem;
+    font-weight: 700;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.introtext{
+    /* font-size: clamp(12px, 4vw, 32px); */
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.introtextcont{
+    color: #00FF7F ;
+    font-weight: 600;
+}
+
+.introPara{
+    display: grid;
+    font-weight: 600;
+    font-size: clamp(10px, 2vw, 20px);
+    width: auto;
+}
+
+
+
+/* .bg{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+} */
+
+@media (max-width: 998px) {
+    .introtext{
+        font-size: 3.5rem;
+    }
+
+    .intro{
+        height: 2.5rem;
+        width: 5.5rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .style h3{
+        font-size: 2rem;
+        font-weight:800;
+    }
+
+    .style h3 span{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width: 630px){
+    .introtext{
+        font-size: 2.5rem;
+    }
+
+    .intro{
+        height: 1.5rem;
+        width: 3.5rem;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .style h3{
+        font-size: 1rem;
+        font-weight:700;
+    }
+
+    .style h3 span{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}

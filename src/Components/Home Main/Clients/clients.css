@@ -1,0 +1,31 @@
+.Main-Client{
+    height: auto;
+    background-color: #222222
+}
+
+.Client{
+    color: aliceblue;
+    margin: 0.1rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #00FF7F ;
+
+}
+
+
+.client-image {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.client-image img{
+    width: 20rem;
+    margin: 1.5rem;
+    aspect-ratio: 4/2;
+    object-fit: contain;
+}
